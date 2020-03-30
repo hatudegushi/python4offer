@@ -7,5 +7,7 @@ class Solution:
         while c_int(n).value:
             count += 1
             n = n & (n-1)
-            print(c_int(n), n)
+            print(c_int(n).value, n)
         return count
+
+print(Solution().NumberOf1(-4))
