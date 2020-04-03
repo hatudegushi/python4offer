@@ -10,8 +10,7 @@ class Solution:
         # write code here
         if not pRoot:
             return []
-        queue = []
-        queue.append(pRoot)
+        queue = [pRoot]
         res = []
         while queue:
             tmp = []
